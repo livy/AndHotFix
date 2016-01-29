@@ -10,3 +10,12 @@ Android app hot fix
 - 加载patch自动校验patch文件签名是否和主app签名一致
 
 - 插入class中的代码只用来避免打上CLASS_ISPREVERIFIED标记，实际不会运行到，避免在hack.apk加载之前的类运行时报错
+
+- 先保存之前build的numa目录，生成Patch时加入到参数NuwaDir中，例如
+
+```
+gradle :app:assembleDevRelease -P NuwaDir=nuwapath
+
+```
+
+
