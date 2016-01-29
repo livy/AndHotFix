@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jetty-util-6.1.25">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-2.8-all/ah86jmo43de9lfa8xg9ux3c4h/gradle-2.8/lib/plugins/jetty-util-6.1.25.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
